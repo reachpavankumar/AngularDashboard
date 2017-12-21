@@ -1,0 +1,31 @@
+{
+    "name": "my_dashboard",
+    "version": "0.0.1",
+    "license": "MIT",
+    "scripts": {
+        "start": "ng serve",
+        "build": "ng build",
+        "test": "ng test",
+        "lint": "ng lint",
+        "e2e": "ng e2e"
+    },
+    "private": true,
+    "dependencies": {
+        "@angular/common": "^4.0.0",
+        "@angular/compiler": "^4.0.0",
+        "@angular/core": "^4.0.0",
+        "@angular/forms": "^4.0.0",
+        "@angular/http": "^4.0.0",
+        "@angular/platform-browser": "^4.0.0",
+        "@angular/platform-browser-dynamic": "^4.0.0",
+        "@angular/router": "^4.0.0",
+        "zone.js": "^0.8.4"
+    },
+    "devDependencies": {
+        "@types/jasmine": "2.5.38",
+        "@types/node": "~6.0.60",
+        "ts-node": "~2.0.0",
+        "tslint": "~4.5.0",
+        "typescript": "~2.2.0"
+    }
+}
