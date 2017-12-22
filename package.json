@@ -1,31 +1,36 @@
 {
-    "name": "my_dashboard",
-    "version": "0.0.1",
-    "license": "MIT",
-    "scripts": {
-        "start": "ng serve",
-        "build": "ng build",
-        "test": "ng test",
-        "lint": "ng lint",
-        "e2e": "ng e2e"
-    },
-    "private": true,
-    "dependencies": {
-        "@angular/common": "^4.0.0",
-        "@angular/compiler": "^4.0.0",
-        "@angular/core": "^4.0.0",
-        "@angular/forms": "^4.0.0",
-        "@angular/http": "^4.0.0",
-        "@angular/platform-browser": "^4.0.0",
-        "@angular/platform-browser-dynamic": "^4.0.0",
-        "@angular/router": "^4.0.0",
-        "zone.js": "^0.8.4"
-    },
-    "devDependencies": {
-        "@types/jasmine": "2.5.38",
-        "@types/node": "~6.0.60",
-        "ts-node": "~2.0.0",
-        "tslint": "~4.5.0",
-        "typescript": "~2.2.0"
-    }
+  "name": "my_dashboard",
+  "version": "0.0.1",
+  "description": "Sample Dashboard",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reachpavankumar/AngularDashboard.git"
+  },
+  "author": "Pavan Kumar Galeveti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reachpavankumar/AngularDashboard/issues"
+  },
+  "homepage": "https://github.com/reachpavankumar/AngularDashboard#readme",
+  "dependencies": {
+    "@angular/common": "^5.1.2",
+    "@angular/compiler": "^5.1.2",
+    "@angular/core": "^5.1.2",
+    "@angular/platform-browser": "^5.1.2",
+    "@angular/platform-browser-dynamic": "^5.1.2",
+    "core-js": "^2.5.3",
+    "rxjs": "^5.5.5",
+    "systemjs": "^0.20.19",
+    "zone.js": "^0.8.18"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.0",
+    "typescript": "^2.6.2"
+  }
 }
